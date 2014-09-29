@@ -6,3 +6,185 @@
 /* Example 13 */
 
 /* I'm blank! Write some CSS to style your layout! */
+
+
+/*
+============================================
+http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+============================================
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/*
+=============================================
+HTML5 display-role reset for older browsers 
+=============================================
+*/
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*
+===============================================
+Box-sizing Border Box
+===============================================
+*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*
+========================================
+Typography
+========================================
+*/
+h1 {
+	font-family: 'Archivo Black', sans-serif;
+}
+h2 {
+	font-size: 16pt;
+	letter-spacing: .1em;
+	font-weight: 300;
+}
+h2, h3, h4, h5 {
+	font-family: 'Roboto Condensed', sans-serif; 
+}
+h3, h4, h5, p {
+	margin-bottom: 20px;
+}
+h4 {
+	text-transform: uppercase;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.2em;
+}
+/*
+========================================
+Page Layout
+========================================
+*/
+/*body * {
+	border: 3px solid purple;	
+}*/
+.container {
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	min-width: 670px;
+}
+.bucket {
+	width: 33.33%;
+	padding: 30px 1.5% 30px 1.5%;
+	display: inline-block;
+	vertical-align: top;
+}
+.image_bucket {
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0px 0px 5px 0px #CFCFCF;
+	margin-bottom: 20px;
+}
+
+/*
+=======================================
+Clearfix
+=======================================
+*/
+.group:before,
+.group:after {
+	content: "";
+	display: table;	
+}
+.group:after {
+	clear: both;
+}
+/*
+========================================
+Header
+========================================
+*/
+header {
+	background-color: #CC0000;
+}
+.logo,
+.tagline {
+	padding: 30px 0px 30px 0;
+	float: left;
+}
+.logo {
+	text-transform: uppercase;
+	color: white;
+	font-size: 36pt;
+	margin-left: 20px;
+}
+.tagline{
+	color: white;
+	line-height: 2.52em;
+	padding-left: 20px;
+}
+/*
+=======================================
+Footer
+=======================================
+*/
+footer {
+	background-color: #CC0000;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.footer {
+	color: white;
+	margin-left: 20px;
+}
+/*
+=======================================
+Home Page
+=======================================
+*/
+.hero {
+	padding: 80px;
+	background-color: #CCFFFF;
+}

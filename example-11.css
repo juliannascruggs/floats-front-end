@@ -4,15 +4,54 @@
 /* ---------------------------------------------------------- */
 
 /* Example 11 */
+/*
+ ==============================
+ Clear that shizzle
+ ==============================
+*/
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+.group:after {
+	clear: both;
+}
 
-.header {}
+/*
+===============================
+Header
+===============================
+*/
+.logo {
+	float: left;
+}
 
-.main-content {}
+.navigation {
+	float: right;
+}
+/*
+===============================
+Bloggin' action
+===============================
+*/
+.main-content {
+
+}
 /* hint! */
 
-.post {}
+.post {
+}
 /* hint! */
 
-.image {}
+.image {
+	float: left;
+	width: 23%;
+	padding: 2%
+}
 
-.post_excerpt {}
+.post_excerpt {
+	float: left;
+	width: 73%;
+	padding: 2%;
+}

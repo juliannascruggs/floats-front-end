@@ -11,12 +11,16 @@
 }
 
 
-.main-content {}
+.main-content {
+	overflow: auto;
+}
 /* hint! what do you need to add here? */
 
 .widget {
 	/* how do you make the widgets float next to each other? */
+	float: left;
 	/* what happens when you change float left to float right? why? */
+	float: left;
 }
 
 
