@@ -11,7 +11,6 @@
 }
 
 .header {
-	overflow: auto;
 }
 /* hint! what do you have to add here? */
 
@@ -30,7 +29,6 @@
 }
 
 .main-content {
-	overflow: auto;
 }
 /* hint! you have to contain the floated children elements. */
 
@@ -46,6 +44,16 @@
 	width: 75%;
 	height: 150px;
 	/* hint! */
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
 }
 
 .footer {
