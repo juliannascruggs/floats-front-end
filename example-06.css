@@ -12,9 +12,18 @@
 
 
 .main-content {
-	overflow: auto;
 }
 /* hint! what do you need to add here? */
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
 
 .widget {
 	/* how do you make the widgets float next to each other? */

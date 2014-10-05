@@ -8,11 +8,24 @@
 .container {
 	width: 80%; /* change me to a percentage width, like 80% */
 	margin: 0 auto;
+	min-width: 880px;
 }
 
+.header{
 
-.header {
-	overflow: auto;
+}
+
+.main-content {
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
 }
 
 .logo {
@@ -30,15 +43,10 @@
 	min-width: 200px;
 }
 
-.main-content {
-	overflow: auto;
-}
-
 .sub-content {
 	float: right;
 	width: 75%;
 	height: 150px;
-	
 }
 
 .sub-content-2 {
