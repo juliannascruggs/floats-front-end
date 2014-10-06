@@ -25,5 +25,19 @@
 }
 
 .footer {
+}
+
+.group {
+	background: teal;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
 	clear: both;
+	border: red 1px solid;
 }

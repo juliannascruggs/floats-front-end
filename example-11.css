@@ -23,6 +23,10 @@
 Header
 ===============================
 */
+.header {
+	min-width: 1030px;
+}
+
 .logo {
 	float: left;
 }
@@ -36,22 +40,26 @@ Bloggin' action
 ===============================
 */
 .main-content {
-
+	min-width: 1030px;
 }
 /* hint! */
 
 .post {
+	width: 980px;
+	margin: 20px auto;
 }
 /* hint! */
 
 .image {
 	float: left;
-	width: 23%;
-	padding: 2%
+	width: 240px;
+}
+.image img {
+	height: 200px;
 }
 
 .post_excerpt {
 	float: left;
-	width: 73%;
-	padding: 2%;
+	width: 660px;
+	min-height: 204px;
 }

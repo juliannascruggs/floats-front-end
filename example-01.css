@@ -21,13 +21,11 @@
 
 .main-content {
     float: left; /* you could float right, too, but left is more consistent */
-    width: 694px; /* however, this can't actually be 774px because there's 40px of padding, and since we used box-sizing, the padding is removed from the width */
+    width: 654px; /* however, this can't actually be 774px because there's 40px of padding, and since we used box-sizing, the padding is removed from the width */
     height: 300px; /* again, for example purposes only */
 }
 
 .footer {
-    clear: both; /* to clear the floated elements above it. try removing me and see what happens. it might be more obvious if you add some margin to all the elements. */
-
 }
 
 
@@ -36,3 +34,26 @@ div {
 }
 
 /* if you comment this margin and the footer clear out, you'll be more able to see what happens when you don't clear the footer. but because you added margin, your pixel width values will no longer add up. how can you fix it? */
+
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    background: teal;
+}
+.group {
+    margin: 0 auto; /* centers this containing element in the browser viewport */
+}
+
+
+
+
+
+

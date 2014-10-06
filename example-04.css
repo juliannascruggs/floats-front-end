@@ -14,7 +14,6 @@
 .header {
 	margin: 0 auto;
 	width: 100%;
-	float: left;
 }
 /* hint! you have to contain the floated children elements. */
 
@@ -39,7 +38,25 @@
 	width: 75%;
 	height: 300px;
 }
+.group {
+	background: teal;
+}
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
 
-.footer {
+.clearfix:after {
 	clear: both;
 }
+
+.footer {
+}
+
+
+
+
+
+
+

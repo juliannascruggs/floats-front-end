@@ -10,7 +10,6 @@
 	margin: 0 auto;
 }
 
-
 .header {}
 
 .sidebar {
@@ -28,7 +27,6 @@
 }
 
 .footer {
-	clear: both;
 	/* hint! */
 }
 
@@ -38,3 +36,20 @@ div {
 }
 
 /* uncomment me to see if you missed anything! */
+
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.group {
+	background: teal;
+}
+
+
